@@ -10,6 +10,8 @@ public class CharacterView : MonoBehaviour
     private const string IsFalling = "IsFalling";
     private const string IsAirborne = "IsAirborne";
     private const string IsMovement = "IsMovement";
+    private const string IsWalking = "IsWalking";
+    private const string IsSprinting = "IsSprinting";
 
     private Animator _animator;
 
@@ -35,4 +37,10 @@ public class CharacterView : MonoBehaviour
 
     public void StartMovement() => _animator.SetBool(IsMovement, true);
     public void StopMovement() => _animator.SetBool(IsMovement, false);
+
+    public void StartWalking() => _animator.SetBool(IsWalking, true);
+    public void StopWalking() => _animator.SetBool(IsWalking, false);
+
+    public void StartSprinting() => _animator.SetBool(IsSprinting, true);
+    public void StopSprinting() => _animator.SetBool(IsSprinting, false);
 }

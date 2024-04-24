@@ -34,6 +34,9 @@ public abstract class MovementState : IState
     public void HandleInput()
     {
         Data.XInput = ReadHorizontalInput();
+        Data.IsSprintingInput = ReadSprintingInput();
+        Data.IsWalkingInput = ReadWalingInput();
+
         Data.XVelocity = Data.XInput * Data.Speed;
     }
 
@@ -49,6 +52,8 @@ public abstract class MovementState : IState
     protected virtual void RemoveInputActionsCallbacks() { }
 
     protected bool IsHorizontalInputZero() => Data.XInput == 0;
+    protected bool IsSpringtingInput() => Data.IsSprintingInput;
+    protected bool IsWalingInput() => Data.IsWalkingInput;
 
     private Quaternion GetRotationFrom(Vector3 velocity)
     {
@@ -64,4 +69,8 @@ public abstract class MovementState : IState
     private Vector3 GetConvertedVelocity() => new Vector3(Data.XVelocity, Data.YVelocity, 0);
 
     private float ReadHorizontalInput() => Input.Movement.Move.ReadValue<float>();
+
+    private bool ReadSprintingInput() => Input.Movement.Sprint.IsInProgress();
+
+    private bool ReadWalingInput() => Input.Movement.Walk.IsInProgress();
 }
