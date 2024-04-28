@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 28
+  controlID: 29
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 500, y: 100}
   m_MaxSize: {x: 40480, y: 16192}
   vertical: 0
-  controlID: 150
+  controlID: 158
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 27
+  controlID: 28
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1067,9 +1067,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 486f0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: dcfaffff
+      m_SelectedIDs: ec6f0000
+      m_LastClickedID: 28652
+      m_ExpandedIDs: dcfaffffec6f0000f46f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1139,7 +1139,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/CharacterExample/Scripts/Character
+    - Assets/CharacterExample/Animations/FBX
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1155,7 +1155,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b86d0000
     m_LastClickedID: 28088
-    m_ExpandedIDs: 000000003c7200003e72000040720000427200004472000046720000487200004a7200004c7200004e720000
+    m_ExpandedIDs: 0000000050720000527200005472000056720000587200005a7200005c7200005e72000060720000627200006472000066720000687200006a7200006c7200006e720000707200007272000074720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1180,10 +1180,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 184}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000003c7200003e72000040720000427200004472000046720000487200004a7200004c7200004e7200003474000036740000d0770000d2770000de770000de780000e2780000567d00005a7d0000
+    m_ExpandedIDs: ffffffff0000000050720000527200005472000056720000587200005a7200005c7200005e72000060720000627200006472000066720000687200006a7200006e720000707200007272000074720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
